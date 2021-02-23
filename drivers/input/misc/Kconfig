@@ -913,4 +913,11 @@ config INPUT_BU520X1NVX
 	  support BU520X1NVX
 	  as bipolar detection device.
 
+config INPUT_FP_ET580
+	tristate "ET580 fingerprint sensor support"
+	default n
+	help
+	  If you say yes here you get support for Egistec's
+	  fingerprint sensor ET580.
+
 endif
